@@ -147,6 +147,7 @@ Tracking::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer,
     }
     if (bReuseMap)
         mState = LOST;
+
 }
 
 void Tracking::SetLocalMapper(LocalMapping *pLocalMapper)
